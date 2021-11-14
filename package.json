@@ -1,0 +1,26 @@
+{
+  "name": "node-kokoro",
+  "version": "1.0.0",
+  "description": "An awesome npm package!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zemyoro/node-kokoro.git"
+  },
+  "keywords": [
+    "kokoro",
+    "node kokoro",
+    "kokoro node",
+    "kokoro manager"
+  ],
+  "author": "Zemyoro",
+  "license": "ISC"
+}
